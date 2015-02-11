@@ -1,31 +1,45 @@
-﻿var geoJson = [{
+var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.377674",
-          "52.516224"
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "title": "Humboldt University of Berlin",
+      "marker-size": "medium",
+      "marker-color": "#3366FF",
+      "marker-symbol": "star-stroked",
+      "images": [
+        ['<img src="images/800px-Berlin_Universität_um_1900.jpg" />',
+          "Berlin Universität um 1900."
+        ],
+        ['<img src="images/Brandenburger2.jpg" />',
+          "The Brandengurb Gate quadriga at night."
         ]
-      }
-      }
-    ,
-    {
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.393655",
+        "52.517883"
+      ]
+    }
+    }, {
       "type": "Feature",
       "properties": {
         "title": "Koeningsplatz",
         "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
+        "marker-color": "#e5c278",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            '<iframe width="180"  src="http://www.youtube.com/embed/3HIlcSrfQBw" frameborder="0" allowfullscreen></iframe>',
+            "A tour of the Reichstag building."
+          ],
+          [
+            '<img src="images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg" />',
+            "The Reichstag building."
+          ]
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -34,6 +48,129 @@
           "52.517539"
         ]
       }
-    },
-  ]
-  }];
+      },{
+        "type": "Feature",
+        "properties": {
+          "title": "Kaiser Wilhelm Memorial Church",
+          "marker-size": "medium",
+          "marker-color": "#3366FF",
+          "marker-symbol": "star-stroked",
+          "images": [
+            [
+              '<iframe width="180"  src="http://www.youtube.com/embed/3HIlcSrfQBw" frameborder="0" allowfullscreen></iframe>',
+              "A tour of the Reichstag building."
+            ],
+            ['<img src="images/Wilhelm.jpg" />',
+              "Emperor Wilhelm's Memorial Church (Berlin, Germany)."
+            ],
+            ['<img src="images/Brandenburger2.jpg" />',
+              "The Brandengurb Gate quadriga at night."
+            ]
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            "13.335082",
+            "52.504818"
+          ]
+        }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "Hotel Adlon",
+            "marker-size": "medium",
+            "marker-color": "#3366FF",
+            "marker-symbol": "star-stroked",
+            "images": [
+              ['<img src="images/adlon.jpg" />',
+                "Hotel Adlon."
+              ],
+              ['<img src="images/Brandenburger2.jpg" />',
+                "The Brandengurb Gate quadriga at night."
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.380556",
+              "52.515833"
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "Kurfurstendamm",
+            "marker-size": "medium",
+            "marker-color": "#3366FF",
+            "marker-symbol": "star-stroked",
+            "images": [
+              ['<img src="images/107139928_95657ccdcb_q.jpg" />',
+                "By storem."
+              ],
+              ['<img src="images/Brandenburger2.jpg" />',
+                "The Brandengurb Gate quadriga at night."
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.331486",
+              "52.503606"
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "Charlottenberg Palace, Berlin, HDR",
+            "marker-size": "medium",
+            "marker-color": "#3366FF",
+            "marker-symbol": "star-stroked",
+            "images": [
+              ['<img src="images/15957842971_182bec9c14_q.jpg" />',
+                "By fridgebuzz77."
+              ],
+              ['<img src="images/Brandenburger2.jpg" />',
+                "The Brandengurb Gate quadriga at night."
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.295833",
+              "52.521111"
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "title": "Sowjetisches Ehrenmal im Tiergarten",
+            "marker-size": "medium",
+            "marker-color": "#3366FF",
+            "marker-symbol": "star-stroked",
+            "images": [
+              ['<img src="images/14155746755_f52c6b74d5_q.jpg" />',
+                "By Frank Haase."
+              ],
+              ['<img src="images/Brandenburger2.jpg" />',
+                "The Brandengurb Gate quadriga at night."
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.359163",
+              "52.514152"
+            ]
+          }
+          }
+        ]
+      }];
